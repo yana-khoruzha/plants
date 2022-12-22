@@ -92,9 +92,6 @@ header {
   width: 158px;
   height: 44px;
   background: #EDF2EC;
-}
-
-.welcome-text button a {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
@@ -104,3 +101,4 @@ header {
   text-transform:uppercase;
   text-align: center;
 }
+
