@@ -205,9 +205,11 @@
 
 .prices {
   background-color: #FFFFFF;
+  padding: 40px 109px 115px;
 }
 .prices__container {
   display: flex;
+  justify-content: space-between;
 }
 .prices__buttons h2 {
   font-family: 'Inter';
@@ -218,5 +220,132 @@
 }
 
 .button-container {
-  
+  padding: 34px 41px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+.button-container button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background: #EDF2EC;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px; 
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  border: none;
+}
+.button-container :last-child {
+  margin-bottom: 0;
+}
+.button-arrow {
+  width: 16px;
+  height: 16px;
+}
+
+.prices__content h2{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 38px;
+  text-align: right;
+}
+.prices__content h2 span {
+  color: #499A18
+}
+
+.prices__content {
+  width: 452px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.prices__content button {
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  color: #E06733;
+  width: 162px;
+  height: 50px;
+  background-color: #FFFFFF;
+  margin-bottom: 39px;
+}
+.prices__content img {
+  width: 152px;
+  height: 175px;
+}
+
+.contact {
+  background-color: #EDF2EC;
+}
+.contact-us {
+  display: flex;
+  padding: 0 109px;
+}
+.contact-us .garden-woman {
+  margin: 53px 113px 0  0;
+}
+.contact-us h2 {
+  font-family: 'Inika';
+  color: #499A18;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 60px 64px 0 0 ;
+}
+.contact-us button {
+  width: 450px;
+  height: 50px;
+  background: #D6E7D2;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+  padding: 5px 24px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 148px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.footer {
+  background-color: #FFFFFF;
+}
+.footer-container {
+  display: flex;
+  padding: 40px 109px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer a, .footer-data li {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+.footer-data ul {
+  display: flex;
+}
+.footer-data ul li {
+  margin-right: 20px;
+}
+.social-list ul {
+  display: flex;
+  margin-left: 30px;
+}
+.social-list ul li {
+  margin-left: 30px;
 }
