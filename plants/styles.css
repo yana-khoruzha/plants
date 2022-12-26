@@ -1,4 +1,13 @@
 
+html {
+  scroll-behavior:smooth;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 ._container {
     max-width: 1440px;
     margin: 0 auto;
@@ -17,11 +26,9 @@
 
 .nav-list {
     display: flex;
-    width: 452px;
-    height: 50px;
+    gap: 46px;
   }
 .nav-item {
-    margin-left: 46px;
     font-family: "Inika";
     font-weight: 400;
     font-size: 16px;
@@ -31,15 +38,14 @@
     color: #010201;
     text-decoration: none;
 }
+.nav-item a:hover {
+  font-weight: 900;
+}
 .home a {
     color: #E06733;
 }
-.home {
-    margin: 0;
-}
-.contacts {
-    margin-right: 0;
-}
+
+
 
 .navbar__logo {
   margin: 11px 0 22px;
@@ -76,7 +82,7 @@
 }
 .welcome__section {
   margin: 36px 0 0 224.2px;
-  width: 549px;
+  max-width: 549px;
 }
 .welcome__section p {
   font-family: 'Inter';
@@ -102,7 +108,10 @@
   text-transform:uppercase;
   text-align: center;
 }
-
+.welcome__section button:hover {
+  color: #FFFFFF;
+  background-color: #E06733;
+}
 .about {
   background-color: #FFFFFF;
   padding: 93px 109px 94px;
@@ -166,6 +175,11 @@
   width: 161px;
   height: 50px;
 }
+.service__buttons button:hover {
+  color: #FFFFFF;
+  background-color: #E06733;
+}
+
 .service__buttons button:last-child {
   margin-right: 0;
 }
@@ -239,6 +253,7 @@
   margin-bottom: 32px;
   border: none;
 }
+
 .button-container :last-child {
   margin-bottom: 0;
 }
@@ -247,7 +262,7 @@
   height: 16px;
 }
 
-.prices__content h2{
+.prices__content p {
   font-family: 'Inter';
   font-weight: 700;
   font-size: 40px;
@@ -256,12 +271,12 @@
   margin-bottom: 38px;
   text-align: right;
 }
-.prices__content h2 span {
+.prices__content p span {
   color: #499A18
 }
 
 .prices__content {
-  width: 452px;
+  max-width: 452px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -274,9 +289,18 @@
   height: 50px;
   background-color: #FFFFFF;
   margin-bottom: 39px;
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
 }
+.prices__content button:hover {
+  color: #fff;
+  background-color: #E06733;
+}
+
 .prices__content img {
-  width: 152px;
+  max-width: 152px;
   height: 175px;
 }
 
