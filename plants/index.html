@@ -15,25 +15,26 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__content _container">
-                <div class="navbar">
-                    <div class="navbar__logo">
-                        <img src="img/logo_vector.svg" alt="logo" class="logo__image">
-                        <span class="navbar__logo-text">Plants</span>
-                    </div>
-                    <nav class="navbar__nav">
-                        <ul class="nav-list">
-                            <li class="nav-item home"><a href="#home">Home</a></li>
-                            <li class="nav-item"><a href="#about">About us</a></li>
-                            <li class="nav-item"><a href="#service">Service</a></li>
-                            <li class="nav-item"><a href="#price">Price</a></li>
-                            <li class="nav-item contacts"><a href="#contacts">Contacts</a></li>
-                        </ul>
-                    </nav>
+            <div class="header__container _container">
+                <div class="header__logo">
+                    <img src="img/logo_vector.svg" alt="logo" class="logo__image">
+                    <span class="logo__text">Plants</span>
                 </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#home" class="menu__link active">Home</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">About us</a></li>
+                        <li class="menu__item"><a href="#service" class="menu__link">Service</a></li>
+                        <li class="menu__item"><a href="#price" class="menu__link">Price</a></li>
+                        <li class="menu__item contacts"><a href="#contacts" class="menu__link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <button class="header__burger-btn">
+                    <span></span><span></span><span></span><span></span>
+                </button>
             </div>
         </header>
-        <main>
+        <main class="main">
             <div class="welcome" id="home">
                 <div class="welcome__container _container">
                     <div class="welcome__picture">
@@ -78,43 +79,43 @@
                         </div>
                     </section>
                     <div class="service__picture-container">
-                        <figure>
-                            <img src="img/pic1.png" alt="garden care">
+                        <figure class="row1">
+                            <img src="img/pic1.jpg" alt="garden care">
                             <figcaption class="picture-figcaption">
                                 <h3>Garden care</h3>
                                 <p>Lorem Ipsum has been the industry</p>
                             </figcaption>
                         </figure>
-                        <figure>
-                            <img src="img/pic2.png" alt="planting">
+                        <figure class="row1">
+                            <img src="img/pic2.jpg" alt="planting">
                             <figcaption class="picture-figcaption">
                                 <h3>Planting</h3>
                                 <p>Lorem Ipsum has been the industry</p>
                             </figcaption>
                         </figure>
-                        <figure>
-                            <img src="img/pic3.png" alt="lawn care">
+                        <figure class="row1">
+                            <img src="img/pic3.jpg" alt="lawn care">
                             <figcaption class="picture-figcaption">
                                 <h3>Lawn care</h3>
                                 <p>Lorem Ipsum has been the industry</p>
                             </figcaption>
                         </figure>
-                        <figure>
-                            <img src="img/pic4.png" alt="planting">
+                        <figure class="row2">
+                            <img src="img/pic4.jpg" alt="planting">
                             <figcaption class="picture-figcaption">
                                 <h3>Planting</h3>
                                 <p>Lorem Ipsum has been the industry</p>
                             </figcaption>
                         </figure>
-                        <figure>
-                            <img src="img/pic5.png" alt="garden care">
+                        <figure class="row2">
+                            <img src="img/pic5.jpg" alt="garden care">
                             <figcaption class="picture-figcaption">
                                 <h3>Garden care</h3>
                                 <p>Lorem Ipsum has been the industry</p>
                             </figcaption>
                         </figure>
-                        <figure>
-                            <img src="img/pic6.png" alt="planting">
+                        <figure class="row2">
+                            <img src="img/pic6.jpg" alt="planting">
                             <figcaption class="picture-figcaption">
                                 <h3>Planting</h3>
                                 <p>Lorem Ipsum has been the industry</p>
@@ -129,11 +130,11 @@
                     <section class="prices__buttons">
                         <h2>Prices</h2>
                         <div class="button-container">
-                            <button><span>Basics</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
+                            <button><span class="btn-text">Basics</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
                                         alt="button-arrow"></span></button>
-                            <button><span>Standard</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
+                            <button><span class="btn-text">Standard</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
                                         alt="button-arrow"></span></button>
-                            <button><span>Pro care</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
+                            <button><span class="btn-text">Pro care</span> <span class="button-arrow"><img src="img/accordion_btn.svg"
                                         alt="button-arrow"></span></button>
                         </div>
                     </section>
@@ -168,10 +169,14 @@
                 </div>
                 <div class="social-list">
                     <ul>
-                        <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a></li>
-                        <li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.svg" alt="twitter"></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt="facebook"></a></li>
-                        <li><a href="https://ru.pinterest.com/" target="_blank"><img src="img/pinterest.svg" alt="pinterest"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg"
+                                    alt="instagram"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg"
+                                    alt="facebook"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li><a href="https://ru.pinterest.com/" target="_blank"><img src="img/pinterest.svg"
+                                    alt="pinterest"></a></li>
                     </ul>
                 </div>
 
