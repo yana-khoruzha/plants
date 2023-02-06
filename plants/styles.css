@@ -50,6 +50,8 @@ html {
 .header__burger-btn span:nth-child(1) {
   transform: translateY(-15px);
 }
+
+
 .header__burger-btn span:nth-child(2) {
   transform: translateY(-7px);
 }
@@ -192,6 +194,7 @@ html {
   margin-right: 153px;
 }
 .about__section p {
+  font-family: "Inter";
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -242,6 +245,14 @@ html {
 .service__buttons button:hover {
   color: #ffffff;
   background-color: #e06733;
+
+.service__buttons button:active {
+  color: #ffffff;
+  background-color: #e06733;
+}
+
+.service__buttons button:last-child {
+  margin-right: 0;
   transition: background-color 0.3s ease 0s;
 }
 
@@ -823,4 +834,12 @@ html {
   .social-list {
     margin-top: -13px;
   }
+}
+
+.social-list ul li {
+  margin-left: 30px;
+}
+
+.blur {
+  filter: blur(4px);
 }
