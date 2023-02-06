@@ -1,6 +1,5 @@
-
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -9,43 +8,41 @@ html {
 }
 
 ._container {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header {
-    background: #EDF2EC;
+  background: #edf2ec;
 }
 .header__content {
-    padding: 42px 109px 42px 111px;
-    height: 134px;
+  padding: 42px 109px 42px 111px;
+  height: 134px;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
-    display: flex;
-    gap: 46px;
-  }
+  display: flex;
+  gap: 46px;
+}
 .nav-item {
-    font-family: "Inika";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
+  font-family: "Inika";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
 }
 .nav-item a {
-    color: #010201;
-    text-decoration: none;
+  color: #010201;
+  text-decoration: none;
 }
 .nav-item a:hover {
   font-weight: 900;
 }
 .home a {
-    color: #E06733;
+  color: #e06733;
 }
-
-
 
 .navbar__logo {
   margin: 11px 0 22px;
@@ -61,7 +58,7 @@ html {
 
 .welcome {
   padding: 62px 109px 62.64px 109px;
-  background: #EDF2EC;
+  background: #edf2ec;
 }
 
 .welcome__container {
@@ -69,7 +66,7 @@ html {
 }
 
 .welcome__section h1 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
@@ -78,14 +75,14 @@ html {
   margin-bottom: 42px;
 }
 .welcome__section span {
-  color: #499A18;
+  color: #499a18;
 }
 .welcome__section {
   margin: 36px 0 0 224.2px;
   max-width: 549px;
 }
 .welcome__section p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -94,48 +91,48 @@ html {
   margin-bottom: 48px;
 }
 .welcome__section button {
-  border: 2px solid #E06733;
+  border: 2px solid #e06733;
   border-radius: 10px;
   width: 158px;
   height: 44px;
-  background: #EDF2EC;
-  font-family: 'Inter';
+  background: #edf2ec;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
   color: #000000;
-  text-transform:uppercase;
+  text-transform: uppercase;
   text-align: center;
 }
 .welcome__section button:hover {
-  color: #FFFFFF;
-  background-color: #E06733;
+  color: #ffffff;
+  background-color: #e06733;
 }
 .about {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 93px 109px 94px;
 }
 .about__container {
   display: flex;
 }
 .about__section h2 {
-  font-family: 'Inika';
+  font-family: "Inika";
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   margin: 68px 50px 40px 0;
-  color: #499A18;
+  color: #499a18;
 }
 .about__section span {
-  color: #E06733;
+  color: #e06733;
 }
 .about__section {
   width: 605px;
   margin-right: 153px;
 }
 .about__section p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
@@ -144,17 +141,16 @@ html {
 
 .service {
   padding: 40px 109px 121px;
-  background: #EDF2EC;
+  background: #edf2ec;
 }
 .service__content {
   display: flex;
   max-width: 1007px;
   margin-bottom: 90px;
-
 }
 .service__content h2 {
-  color: #499A18;
-  font-family: 'Inika';
+  color: #499a18;
+  font-family: "Inika";
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
@@ -163,12 +159,12 @@ html {
   margin-right: 142px;
 }
 .service__buttons button {
-  border: 1px solid #E06733;
-  color: #E06733;
+  border: 1px solid #e06733;
+  color: #e06733;
   border-radius: 5px;
-  background: #EDF2EC;
+  background: #edf2ec;
   margin: 29px 32px 15px 0;
-  font-family: 'Inika';
+  font-family: "Inika";
   font-size: 20px;
   line-height: 26px;
   text-align: center;
@@ -176,8 +172,13 @@ html {
   height: 50px;
 }
 .service__buttons button:hover {
-  color: #FFFFFF;
-  background-color: #E06733;
+  color: #ffffff;
+  background-color: #e06733;
+}
+
+.service__buttons button:active {
+  color: #ffffff;
+  background-color: #e06733;
 }
 
 .service__buttons button:last-child {
@@ -194,8 +195,8 @@ html {
   border-radius: 20px 20px 0 0;
 }
 .picture-figcaption h3 {
-  color: #E06733;
-  font-family: 'Inter';
+  color: #e06733;
+  font-family: "Inter";
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -203,22 +204,21 @@ html {
   text-align: center;
 }
 .picture-figcaption p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #717171;
   text-align: center;
   margin-bottom: 36px;
-
 }
 .picture-figcaption {
-  border: 1px solid #E3E1D5;
+  border: 1px solid #e3e1d5;
   border-radius: 0 0 20px 20px;
 }
 
 .prices {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 40px 109px 115px;
 }
 .prices__container {
@@ -226,7 +226,7 @@ html {
   justify-content: space-between;
 }
 .prices__buttons h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -235,17 +235,17 @@ html {
 
 .button-container {
   padding: 34px 41px;
-  border: 1px solid #E3E1D5;
+  border: 1px solid #e3e1d5;
   border-radius: 20px;
 }
 .button-container button {
   width: 250px;
   height: 50px;
   border-radius: 20px;
-  background: #EDF2EC;
-  font-family: 'Inter';
+  background: #edf2ec;
+  font-family: "Inter";
   font-weight: 700;
-  font-size: 20px; 
+  font-size: 20px;
   padding: 16px 40px;
   display: flex;
   justify-content: space-between;
@@ -263,7 +263,7 @@ html {
 }
 
 .prices__content p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -272,7 +272,7 @@ html {
   text-align: right;
 }
 .prices__content p span {
-  color: #499A18
+  color: #499a18;
 }
 
 .prices__content {
@@ -282,21 +282,21 @@ html {
   align-items: flex-end;
 }
 .prices__content button {
-  border: 1px solid #E06733;
+  border: 1px solid #e06733;
   border-radius: 5px;
-  color: #E06733;
+  color: #e06733;
   width: 162px;
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 39px;
-  font-family: 'Inika';
+  font-family: "Inika";
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
 }
 .prices__content button:hover {
   color: #fff;
-  background-color: #E06733;
+  background-color: #e06733;
 }
 
 .prices__content img {
@@ -305,28 +305,28 @@ html {
 }
 
 .contact {
-  background-color: #EDF2EC;
+  background-color: #edf2ec;
 }
 .contact-us {
   display: flex;
   padding: 0 109px;
 }
 .contact-us .garden-woman {
-  margin: 53px 113px 0  0;
+  margin: 53px 113px 0 0;
 }
 .contact-us h2 {
-  font-family: 'Inika';
-  color: #499A18;
+  font-family: "Inika";
+  color: #499a18;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin: 60px 64px 0 0 ;
+  margin: 60px 64px 0 0;
 }
 .contact-us button {
   width: 450px;
   height: 50px;
-  background: #D6E7D2;
-  font-family: 'Inter';
+  background: #d6e7d2;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
@@ -341,7 +341,7 @@ html {
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .footer-container {
   display: flex;
@@ -352,10 +352,11 @@ html {
 .footer ul li {
   list-style: none;
 }
-.footer a, .footer-data li {
+.footer a,
+.footer-data li {
   text-decoration: none;
   color: #000000;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
@@ -372,4 +373,8 @@ html {
 }
 .social-list ul li {
   margin-left: 30px;
+}
+
+.blur {
+  filter: blur(4px);
 }
