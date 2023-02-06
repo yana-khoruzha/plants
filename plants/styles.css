@@ -51,7 +51,6 @@ html {
   transform: translateY(-15px);
 }
 
-
 .header__burger-btn span:nth-child(2) {
   transform: translateY(-7px);
 }
@@ -245,6 +244,7 @@ html {
 .service__buttons button:hover {
   color: #ffffff;
   background-color: #e06733;
+}
 
 .service__buttons button:active {
   color: #ffffff;
