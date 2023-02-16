@@ -228,7 +228,7 @@ html {
   gap: 38px;
   flex-wrap: wrap;
 }
-.service__buttons button {
+.servBtn {
   border: 1px solid #e06733;
   color: #e06733;
   border-radius: 5px;
@@ -241,15 +241,10 @@ html {
   width: 161px;
   height: 50px;
 }
-.service__buttons button:hover {
+/* .service__buttons button:hover {
   color: #ffffff;
   background-color: #e06733;
-}
-
-.service__buttons button:active {
-  color: #ffffff;
-  background-color: #e06733;
-}
+} */
 
 .service__buttons button:last-child {
   margin-right: 0;
@@ -842,4 +837,8 @@ html {
 
 .blur {
   filter: blur(4px);
+}
+.btnActive {
+  color: #ffffff;
+  background-color: #e06733;
 }
